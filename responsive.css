@@ -1,0 +1,78 @@
+/*Media Queries*/
+
+ /*Responsive*/
+
+ @media screen and (max-width:993px) {
+    .navbar-menu {
+        display: none;
+    }
+    
+}
+
+@media screen and (max-width:992px) {
+
+    .navbar {
+        justify-content: space-between;
+    }
+
+   .navbar .nav-links {
+        display: none;
+    } 
+
+    .navbar .nav-button {
+        position: relative;
+        right: 1em;
+        display: block;
+        
+    }
+
+    .navbar-menu {
+        display: block;
+        
+    }
+
+
+}
+
+@media screen and (max-width:576px) {
+    .navbar-menu.open {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+
+
+@media screen and (max-width:800px) and (min-width:350px) {
+
+    /*Descriptor*/
+    .descriptor-content {
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .descriptor-container {
+        margin-top: 200px !important;
+    }
+
+    .descriptor-column {
+        max-width: 100% !important;
+    }
+    
+    /*Modal*/
+
+    .modal-content {
+        max-width: 100% !important;
+    }
+
+    .slides-container {
+        max-width: 100%;
+    }
+
+    .modal-slides {
+        max-width: 100% !important;
+    }
+
+}
+
+
